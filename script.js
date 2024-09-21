@@ -7,3 +7,5 @@ const student={
 	}
 	
 }
+
+console.log(student.getKeys)
