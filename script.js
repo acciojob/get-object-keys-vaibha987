@@ -8,5 +8,3 @@ const student={
 	
 }
 console.log(student.getKeys());
-
-console.log(student.getKeys)
