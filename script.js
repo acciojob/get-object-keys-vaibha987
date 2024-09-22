@@ -2,10 +2,11 @@
 const student={
 	name:"vaibhav",
 
-	get getKeys(){
-		return this.name
+	Object.prototype.getKeys(){
+		return Object.keys(this);
 	}
 	
 }
+console.log(student.getKeys());
 
 console.log(student.getKeys)
