@@ -2,7 +2,7 @@
 const student={
 	name:"vaibhav",
 
-	Object.prototype.getKeys(){
+	Object.prototype.getKeys=function(){
 		return Object.keys(this);
 	}
 	
